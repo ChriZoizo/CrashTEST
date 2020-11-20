@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 #Flo a modifié le seed
+
 #Modif de Flo
-require "faker"
