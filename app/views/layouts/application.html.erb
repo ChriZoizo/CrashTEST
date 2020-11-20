@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ceciestuneappli</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', "data-no-turbolink": 'reload' %>
+    <%= javascript_pack_tag 'application', "data-no-turbolink": 'reload' %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
